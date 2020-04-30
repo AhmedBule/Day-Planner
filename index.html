@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+      <!-- Timeblocks go here -->
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                </tr>
+            </thhead>
+            <tbody>
+                <tr id="9-row">
+                    <td>9 am to 10 am </td>
+                    <td> <input id="9-input"/></td>
+                    <td> <button id="9-button"> <i class="fas fa-save"></i></button></td>
+                </tr>
+                <tr id="10-row">
+                    <td>10 am to 11 am </td>
+                    <td> <input id="10-input"/></td>
+                    <td> <button id="10-button"> <i class="fas fa-save"></i></button></td>
+                </tr>
+                <tr id="11-row">
+                    <td>11 am to 12 pm </td>
+                    <td> <input id="11-input"/></td>
+                    <td> <button id="11-button"> <i class="fas fa-save"></i></button></td>
+                </tr>
+                <tr id="12-row">
+                    <td>12 pm to 1 pm </td>
+                    <td> <input id="12-input"/></td>
+                    <td> <button id="12-button"> <i class="fas fa-save"></i></button></td>
+                </tr>
+                <tr id="13-row">
+                    <td>1 pm to 2 pm </td>
+                    <td> <input id="13-input"/></td>
+                    <td> <button id="13-button"> <i class="fas fa-save"></i></button></td>
+                </tr>
+                <tr id="14-row">
+                    <td>2 pm to 3 pm </td>
+                    <td> <input id="14-input"/></td>
+                    <td> <button id="14-button"> <i class="fas fa-save"></i></button></td>
+                </tr>
+                <tr id="15-row">
+                    <td>3 pm to 4 pm </td>
+                    <td> <input id="15-input"/></td>
+                    <td> <button id="15-button"> <i class="fas fa-save"></i></button></td>
+                </tr>
+                <tr id="16-row">
+                    <td>4 pm to 5 pm </td>
+                    <td> <input id="16-input"/></td>
+                    <td> <button id="16-button"> <i class="fas fa-save"></i></button></td>
+                </tr>
+                <tr id="17-row">
+                    <td>6 pm to 7 pm </td>
+                    <td> <input id="17-input"/></td>
+                    <td> <button id="17-button"> <i class="fas fa-save"></i></button></td>
+                </tr>
+            
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="Moment.js"> </script>
+  </body>
+</html>

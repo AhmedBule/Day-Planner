@@ -2,9 +2,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    color: #ff6961;
   }
+
   
-  textarea{
+  .textarea{
     background: transparent;
     border: none;
     resize: none;
@@ -27,7 +29,8 @@ body {
   
   .time-block{
     text-align: center;
-    border-radius: 15px;
+    border-radius: 100px;
+    padding: 20px;
   }
   
   .row {
